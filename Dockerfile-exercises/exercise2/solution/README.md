@@ -42,4 +42,4 @@ This solution ensures that setting, using, and unsetting the environment variabl
 ## Expected Outcome:
 The Dockerfile solution provided ensures a single layer for setting, using, and unsetting the environment variable, preventing its persistence in subsequent layers. This approach enhances security by avoiding exposure of sensitive environment variables.
 
-![env test expected output](../../assets/env_exercise_expected_output.png)
+![env test expected output](../../../assets/env_exercise_expected_output.png)

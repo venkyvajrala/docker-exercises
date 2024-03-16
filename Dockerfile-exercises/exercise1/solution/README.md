@@ -33,5 +33,3 @@ docker run -it curl:0.5
 
 - Always place multiline package installation or labels in alphabetical order for better readability and prevent duplicate package installations
 - While installing packages remove cache to reduce image size and place them all in single line RUN command. Read [here](https://docs.docker.com/develop/develop-images/instructions/#label) for more info.
-
-

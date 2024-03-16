@@ -1,4 +1,5 @@
 FROM alpine:3.19.1
+
 LABEL application="ping" \
       com.example.version=0.5 \
       env="dev"
