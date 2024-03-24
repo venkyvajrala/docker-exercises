@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    ports: 
+      - 8080:5000
+    env_file:
+      - app.env
+    environment:
+      FLASK_DEBUG: true
+
+  redis:
+    image: redis:alpine3.19
