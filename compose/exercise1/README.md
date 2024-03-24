@@ -31,7 +31,6 @@ curl http://localhost:8080
 
 
 ### 2. Testing Changes in requirements.txt: 
-Try adding new package in `compose/exercise1/app/requirements.txt` file.
 Add a new package to `compose/exercise1/app/requirements.txt` file as illustrated below:
 ![alt](../../assets/compose-exercise1-build-file-change.png)
 
