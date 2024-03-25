@@ -43,3 +43,11 @@ Application should return response as below
 curl http://localhost:8080
 ```
 ![app output](../../assets/compose-exercise2-app-output.png)
+
+<br>
+<br>
+
+<details>
+<summary>Hint</summary>
+Use Docker compose env variables <a href="https://docs.docker.com/compose/environment-variables/env-file/">interpolation</a>.
+</details>
