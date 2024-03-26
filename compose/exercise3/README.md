@@ -35,3 +35,10 @@ App2 should be able to return the movie associated with the user entered in App1
 
 App2 should return a "user not found" response when a nonexistent user value is provided.
 ![alt](../../assets/compose-exercise3-app2-usernotfound-output.png)
+
+<details> 
+<summary>Hint</summary>
+App2 is not able to connect to Redis DB created by app1 compose config. 
+Redis DB will be created in  movie_default network which is created as part of app1 setup.
+You need to enable App2 to be able to connect with Redis DB in movie_default network
+</details>
