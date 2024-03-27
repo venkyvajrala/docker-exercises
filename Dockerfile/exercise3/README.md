@@ -1,4 +1,4 @@
-# Excercise3:
+# Excercise 3:
 You're given the following Dockerfile:
 ```Dockerfile
 FROM alpine:3.19.1
@@ -15,19 +15,19 @@ CMD [ "sh","-c","cat titles.txt" ]
 
 
 ```
-You tried building the image as shown below and we could see that build is succesful
+You tried building the image as shown below and we could see that build is successful
 ![exercise3 build output](../../assets/exercise3-build-output.png)
 
-You then tried running the image built and it succesfully printed out the titles it generated.
+You then tried running the image built and it successfully printed out the titles it generated.
 ![exercise3 run output](../../assets/exercise3-run-output.png)
 
 However, when you provided a dummy URL as a build argument to test the build process, the build did not fail as expected.
 ```shell
 docker build --build-arg=website_url=https://jsonplaceholder.nonexistent.com/posts -t exercise3:0.1 .
 ```
-![dummy website output](../../assets/excercise3-dummy-website-output.png)
+![dummy website curl output](../../assets/excercise3-dummy-website-output.png)
 
-You are surprised that build is not failed and succefsully created the image but you wanted the build to fail because the URL you gave is non-existent and you expected an error similar to below
+You are surprised that build is not failed and successfully created the image but you wanted the build to fail because the URL you gave is non-existent and you expected an error similar to below
 ![dummy website curl output](../../assets/exercise3-dummy-website-curl-output.png)
 
 ## Task:

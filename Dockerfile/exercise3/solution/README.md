@@ -1,4 +1,4 @@
-# Excercise3 solution:
+# Excercise 3 solution:
 
 Here's the rewritten content with the necessary modifications:
 

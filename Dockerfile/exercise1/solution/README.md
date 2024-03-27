@@ -3,16 +3,20 @@
 Create `Dockerfile` with below content
 ```Dockerfile
 FROM alpine:3.19.1
+
 LABEL application="ping" \
-      com.example.version=0.5 \
+      com.example.version="0.5" \
       env="dev"
 
-RUN apk update && apk add --no-cache \
+# Install required packages
+RUN apk update && \
+    apk add --no-cache \
     curl \
     git \
     iputils-ping
 
-CMD ["sh","-c","curl www.example.com"]
+# Define the default command to execute
+CMD ["sh", "-c", "curl www.example.com"]
 ```
 
 Run below command to build the image where Dockerfile is placed.

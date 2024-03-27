@@ -1,6 +1,6 @@
 # Exercise 1: 
 
-Create image using `alping:3.19.1` , label the image as `env=dev` `application=ping` `version=comexample.version=0.5` , Install the packages `curl`, `git`, `ping` and it should print curl output of `www.example.com`
+Create image using `alpine:3.19.1` , label the image as `env=dev` `application=ping` `version=com.example.version=0.5` , Install the packages `curl`, `git`, `ping` and it should print curl output of `www.example.com`
 
 After the image is built below command should output your image in terminal
 
